@@ -3,8 +3,13 @@
   <title>验证码</title>
 </head>
 <body>
+	<form method="GET" action="LoginServlet">
   	验证码：<input type="text" name="checkcode"/>
   	<img src="imgServlet"/>
-  	<input type=button value=看不清楚 onclick="location.reload()"> 
+  	<input type=button value=看不清楚 onclick="location.reload()"><br>
+  	
+  	
+  	<input type="submit" value=提交></input> 
+  	</form>
 </body>
 </html>

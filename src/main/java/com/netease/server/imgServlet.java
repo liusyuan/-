@@ -36,7 +36,7 @@ public class imgServlet extends HttpServlet {
 		}
 		req.getSession().setAttribute("piccode",sb.toString());
 		ImageIO.write(bi, "JPG", resp.getOutputStream());
-		
+
 	}
 	
 }

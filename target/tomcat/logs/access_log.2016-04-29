@@ -104,3 +104,12 @@
 127.0.0.1 - - [29/Apr/2016:12:56:32 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 970 http-bio-8080-exec-5 37
 127.0.0.1 - - [29/Apr/2016:12:56:33 +0800] "GET /checkcode/ HTTP/1.1" 304 - http-bio-8080-exec-6 1
 127.0.0.1 - - [29/Apr/2016:12:56:33 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 913 http-bio-8080-exec-8 19
+127.0.0.1 - - [29/Apr/2016:13:00:11 +0800] "GET /checkcode/ HTTP/1.1" 304 - http-bio-8080-exec-2 2
+127.0.0.1 - - [29/Apr/2016:13:00:11 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 1036 http-bio-8080-exec-10 11
+127.0.0.1 - - [29/Apr/2016:13:03:56 +0800] "GET /checkcode/ HTTP/1.1" 304 - http-bio-8080-exec-4 4
+127.0.0.1 - - [29/Apr/2016:13:03:56 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 974 http-bio-8080-exec-5 13
+127.0.0.1 - - [29/Apr/2016:13:03:57 +0800] "GET /checkcode/ HTTP/1.1" 304 - http-bio-8080-exec-5 0
+127.0.0.1 - - [29/Apr/2016:13:03:57 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 958 http-bio-8080-exec-5 11
+127.0.0.1 - - [29/Apr/2016:13:21:43 +0800] "GET /checkcode/ HTTP/1.1" 200 339 http-bio-8080-exec-1 80
+127.0.0.1 - - [29/Apr/2016:13:21:43 +0800] "GET /checkcode/imgServlet HTTP/1.1" 200 961 http-bio-8080-exec-2 134
+127.0.0.1 - - [29/Apr/2016:13:21:48 +0800] "POST /checkcode/test/user HTTP/1.1" 404 989 http-bio-8080-exec-3 5
