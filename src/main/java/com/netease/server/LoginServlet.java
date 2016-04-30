@@ -14,6 +14,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String piccode=(String) req.getSession().getAttribute("piccode");
 		String checkcode=req.getParameter("checkcode");
+		checkcode=checkcode.toUpperCase();
 		resp.setContentType("text/html;charset=UTF-8");
 		PrintWriter out=resp.getWriter();
 		if(checkcode.equals(piccode)){
